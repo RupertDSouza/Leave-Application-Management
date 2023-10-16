@@ -1,0 +1,88 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("../images/Artboard 1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.topnav {
+  overflow: hidden;
+  border: 1px solid white;
+}
+.topnav a {
+  float: right;
+  color: white;
+  text-align: center;
+  padding: 1px 20px;
+  font-family: Arial;	
+  font-size: 25px;
+}
+.topnav img {
+ width:300px;
+ padding: 1px 20px;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 20px;
+
+}
+.rowtext{
+    color:white;
+    font-size:30px;
+    padding:10px;
+    text-align: right;
+}
+.cap{
+    color:white;
+    font-family: CentSchbkCyrill BT;
+    font-size:40px;
+    padding:10px;
+    text-align: center;
+}
+	select option{
+		color:#035295;
+	}
+#course , #year, #batch{
+    background-color: transparent;
+    border: 2px solid white;
+    font-size: 25px;
+    color:white;
+}
+#course , #year{
+		padding:4px 100px;
+	}
+#submit{
+    width: 100%;
+    background-color: white;
+    color:#035295;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 14px 20px;
+    cursor: pointer;
+}
+
+.warning_msg
+{
+        color:red;
+    font-size:25px;
+    font-family: Arial Rounded MT;
+    
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}

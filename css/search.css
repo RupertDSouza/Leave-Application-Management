@@ -1,0 +1,107 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+body{
+background-image:url("../images/image5.png");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+background-size:100% 100%;
+}
+/*		.logo{
+    width:300px;
+}
+.logo>img{
+    width:100%;
+}*/
+.topnav {
+  overflow: hidden;
+  border: 1px solid white;
+}
+.topnav a {
+  float: right;
+  color: white;
+  text-align: center;
+  padding: 1px 20px;
+  font-family: Arial;
+  font-size: 25px;
+}
+.topnav img {
+ width:300px;
+ padding: 1px 20px;
+}
+table{
+    margin: 2%;
+    margin-left: 200px;
+    color:white;
+    border-spacing:40px;
+    width:800px;
+    text-align:center;
+    font-size:20px;	
+    /*float: right;*/
+}
+.tab{
+      float: left;
+      color: white;
+      text-align: left;
+      font-family: Arial;
+      font-size: 30px;
+      border-spacing: 50%;
+      /*width: 5px;*/
+}
+#submit{
+    width: 60px;
+    height: 30px;
+    background-color: white;
+    color:#035295;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 10px;
+    cursor: pointer;
+}
+.head{
+    float: center;
+      color: white;
+      text-align: center;
+      padding: 1px 20px;
+      font-size: 25px;
+      margin-top: 2%;
+    font-family:Arial;
+    letter-spacing:3px;
+    overflow: hidden;
+}
+.cap{
+    color:white;
+    font-family: CentSchbkCyrill BT;
+    font-size:30px;
+    padding:10px;
+    text-align: center;
+}
+#regno,#name,#date,#totalleaves{
+    padding:3% 10%;
+    width:100%;	
+    text-align:center;
+}
+#submit{
+    width: 100%;
+    background-color: white;
+    color:#035295;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 14px 20px;
+    cursor: pointer;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+          -webkit-appearance: none;
+          margin: 0;
+        }
+/* Firefox */
+input[type=number] {
+-moz-appearance: textfield;
+}

@@ -1,0 +1,90 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-image: url("../images/Artboard 3.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+table{
+    margin-right: auto;
+    margin-left:auto;
+    color:white;
+    border-spacing: 30px;
+}
+    .content{
+        display: flex;
+        justify-content: flex-end;
+    }
+.topnav {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+  overflow: hidden;
+  border: 1px solid white;
+}
+.logo{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.topnav a {
+  float: right;
+  color: white;
+  text-align: center;
+  padding: 20px 20px;
+  font-family: Arial;
+  font-size: 25px;
+}
+.logo> img {
+    margin: 10px;
+    width: 100%;
+}
+.head{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+
+@media only screen and (max-width: 780px){
+    .topnav a{
+        font-size: 20px;
+        padding: 0;
+        grid-template-columns: 1fr;
+    }
+    .topnav img{
+        width: 250px;
+    }
+    .topnav{
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+        border: none;
+    }
+    .logo> img {
+    margin: 10px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+}
+}
+@media only screen and (max-width: 500px){
+    .head{
+        font-size: 30px;
+    }
+    .sub{
+        font-size: 18px;
+    }
+}

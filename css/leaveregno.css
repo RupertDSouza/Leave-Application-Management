@@ -1,0 +1,137 @@
+*{
+		padding:0;
+		margin:0;
+		box-sizing:border-box;
+	}
+	a{
+    text-decoration: none;
+}
+	body{
+		background-image:url("../images/image3.png");
+		background-repeat:no-repeat;
+		background-size:cover;
+		background-attachment: fixed;
+		background-position: center;
+	}
+	.content{
+		display: flex;
+		justify-content: flex-end;
+	}
+.topnav {
+	display: grid;
+	grid-template-columns: 0.5fr 1fr;
+  overflow: hidden;
+  border: 1px solid white;
+}
+.logo{
+    width: 50%;
+}
+.topnav a {
+  float: right;
+  color: white;
+  text-align: center;
+  padding: 20px 20px;
+  font-family: Arial;
+  font-size: 25px;
+}
+.logo> img {
+	margin: 10px;
+	width: 100%;
+}
+	.head{
+		color:white;
+		font-size:190%;
+		text-align:center;
+		font-family:Arial;
+		letter-spacing:2px;
+	}	
+	.sub{
+		 color:white;
+		 text-align:right;
+		 font-weight:bold;
+		 font-size:22px;
+		 font-family:arial;
+	}
+	table{
+    margin-right: auto;
+    margin-left:auto;
+    color:white;
+    border-spacing: 30px;
+	}
+	select option{
+		color:#035295;
+	}
+	#course,#year,#batch{
+		background-color:transparent;
+		border: 2px solid white;
+		font-size: 20px;
+		color:white;
+		padding:4px 10px;
+		border-radius:6px;
+		text-align:center;
+		width: 100%;
+	}
+	#year{
+		padding:4px 100px;
+	}
+	#date{
+		font-size:20px;
+		padding:2px 50px;
+		text-align:center;
+	}
+	#reason,#date{
+		color:#035295;
+		border-radius:6px;
+		margin-right:auto;
+		display:block;
+		width: 100%;
+	}	
+	#submit{
+		background-color: white;
+		color:#035295;
+		border: none;
+		border-radius: 10px;
+		font-weight: bold;
+		font-size: 20px;
+		padding: 10px 100px;
+		cursor: pointer;		
+		margin-right:auto;
+		margin-left:auto;
+		display:block;
+		letter-spacing:1px;
+	}
+@media only screen and (max-width: 780px){
+	.topnav a{
+		font-size: 20px;
+		padding: 0;
+		grid-template-columns: 1fr;
+	}
+	.topnav img{
+		width: 250px;
+	}
+	.topnav{
+		grid-template-columns: 1fr;
+		grid-gap: 10px;
+		border: none;
+	}
+	.logo> img {
+	margin: 10px;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+.content{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	justify-content: center;
+}
+}
+@media only screen and (max-width: 500px){
+	.head{
+		font-size: 30px;
+	}
+	.sub{
+		font-size: 18px;
+	}
+}
